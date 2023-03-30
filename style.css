@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+}
+.container{
+    width:100%;
+    height:57vh;
+    background-color:rgba(86, 131, 131, 0.904);
+    
+}
+.row{
+    width:100%;
+    padding:0px;
+
+}
+.navbar{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px 0px;
+    position:relative;
+    z-index:1;
+
+}
+.navbar ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+
+}
+.navbar ul li{
+    list-style: none;
+
+}
+.navbar ul li a{
+    padding:10px 18px;
+    border-radius:5px;
+    font-family:sans-serif;
+    font-size:16px;
+    color:white;
+    text-decoration:none;
+
+}
+.navbar ul li a:hover{
+    background-color:#5d88d5;
+}
+.navbar h1{
+    color:#fff;
+    font-size:35px;
+    font-weight:500;
+    text-transform:uppercase;
+    margin-top:10px;
+
+
+}
+.content{
+    width:100%;
+    min-height:50vh;
+    position:relative;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.content h2{
+    font-size:45px;
+    color:#fff;
+    font-weight:400;
+}
+.content p{
+    font-size:16px;
+    color:#fff;
+
+}
+.content button{
+    
+    color:black;
+    padding:10px;
+    margin:5px;
+    border:0;
+    text-decoration:none;
+}
+.additional{
+    margin-top:0px;
+    padding:10px;
+    background-color:bisque;
+    height:15vh;
+    margin-left:0px;
+    margin-right:0px;
+    border:11px solid bisque;
+    box-sizing: border-box;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+}
+h1{
+    padding-left:80px;
+}
+.logos{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    background-color:aquamarine;
+    height:236px;
+    padding-top:100px;
+    border:11px solid aquamarine;
+    font-style:italic;
+    font-size:large;
+}
+.hori{
+    text-align:center;
+    background-color:aquamarine;
+    padding:10px;
+}
+
